@@ -1,0 +1,86 @@
+\documentclass{IEEEtran}
+\usepackage{cite}
+\begin{document}
+\title{A Survey: Language Modeling}
+
+\author{Anuar Maratkhan}
+
+\maketitle
+
+\section{Introduction}
+
+A \textit{language model} is an algorithm for predicting next word in a text given preceeding ones. It is also mostly known as a \textit{statistical language model} for its richness in statistical approaches in previous works. However, as soon as neural networks became popular, a \textit{neural language modeling} approaches has been invented. The language modeling is used in speech recognition, handwriting recognition, machine translation, information retrieval and other natural language processing applications.
+
+First, we will discuss earlier approaches to language modeling, particularly statistical ones that are \textit{unigram}, \textit{bigram}, \textit{trigram}, and more generalized \textit{N-gram} models. Further, we proceed by reviewing nowadays' state-of-the-art - neural language models. And by the end, we will summarize the topic and give future suggestions on language models.
+
+
+\section{Statistical Language Modeling}
+
+A statistical language model is a probability distribution \textit{P(s)} over sequences of words, sentences \textit{s}\cite{slm}.
+
+\subsection{Unigram Language Model}
+
+In progess...
+
+\subsection{Bigram Language Model}
+
+In progess...
+
+\subsection{Trigram Language Model}
+
+In progess...
+
+\subsection{N-gram Language Model}
+
+In progess...
+
+\section{Neural Language Modeling}
+
+Neural Language Models, also known as continous-space language models, make use of neural networks. These are current state-of-the-art approach in language modeling. One reason of Neural Nets' use is that they can learn from unstructured data. The studies show that it is possible to learn from unlabeled data \cite{unsupervised}. One of the common applications of such new machine learning techniques is search engines, which is mainly information retrieval that consists of unlabeled data. That means neural nets are possible to learn from that unstructured data and perform well on that.
+
+\subsection{Feed-Forward Neural Network Based Models}
+
+In progess...
+
+\subsection{Recurrent Neural Network Based Models}
+
+Recurrent Neural Networks (RNN) are used in sequential data analysis such as video processing, text processing, predicting stock prices. RNN architecture is an improvement of feed-forward networks that takes into account previous output results by storing them in memory. An invention of backpropogation caused an exciting use of RNNs \cite{deeplearning}. But the problem in simple RNN was that the backpropogated gradients vanshish or explode \cite{deeplearning}.
+
+The improvement in RNN architecture further was introduced with a Long-Short Term Memory (LSTM). The LSTM solved the vasnishing gradient problem by having special cells with activation gates. Moreover, Gated Recurrent Unit (GRU) improved the architecture of the LSTM by combining two gates. The study shows that RNNs perform better than complex statistical approaches, N-grams, on a real-world data \cite{rnn}.
+
+
+\subsection{Convolutional Neural Network Based Models}
+
+In progess...
+
+\section{Conclusion}
+
+Over the past few years, it was clearly seen that continous-space language models outperformed statistical modeling techniques significantly. The ease of feature learning without need in extraction of those features simplified lives of scientists. The neural approach offers such opportunity to its users.
+
+Recurrent Networks are expected to improve natural language understanding in real-world applications.
+
+To be continued...
+
+
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{}
+\begin{thebibliography}{5}
+
+\bibitem{slm}
+Ronald Rosenfeld. \emph{Two Decades of Statistical Language Modeling: Where Do We Go from Here?}, 2000
+
+\bibitem{unsupervised}
+Quoc V. Le, Marc' Aurelio Ranzato, Rajat Monga, Matthieu Devin, Kai Chen, Greg S. Corrado, Jeff Deau, Andrew Y. Ng. \emph{Building High-Level Features Using Large Scale Unsupervised Learning}, 2012
+
+\bibitem{rnn}
+Andrej Karpathy, Justin Johnson, Li Fei-Fei. \emph{Visualizing and Understanding Reccurent Networks}, 2015
+
+\bibitem{deeplearning}
+Yann LeCun, Yoshua Bengio, Geoffrey Hinton. \emph{Deep Learning}, 2015
+
+\end{thebibliography}
+
+
+\end{document}
