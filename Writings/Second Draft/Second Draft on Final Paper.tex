@@ -9,21 +9,27 @@
 
 \section{Introduction}
 
-A \textit{language model} is an algorithm for predicting next word in a text given preceeding ones. It is also mostly known as a \textit{statistical language model} for its richness in statistical approaches in previous works. However, as soon as neural networks became popular, a \textit{neural language modeling} approaches has been invented. The language modeling is used in speech recognition, handwriting recognition, machine translation, information retrieval and other natural language processing applications.
+A \textit{language model} is an algorithm for predicting next word in a text given preceeding ones. It is also mostly known as \textit{statistical language model} for its richness in statistical approaches in previous works. However, as soon as neural networks became popular, \textit{neural language modeling} approaches were invented. Language modeling is used in speech recognition, handwriting recognition, machine translation, information retrieval and other natural language processing applications.
 
-First, we will discuss earlier approaches to language modeling, particularly statistical ones that are \textit{unigram}, \textit{bigram}, \textit{trigram}, and more generalized \textit{N-gram} models. Further, we proceed by reviewing nowadays' state-of-the-art - neural language models. And by the end, we will summarize the topic and give future suggestions on language models.
+This part of introduction will conclude earlier approaches to language modeling, particularly statistical ones that are \textit{unigram}, \textit{bigram}, \textit{trigram}, and more generalized \textit{N-gram} models.
 
-Neural Language Models, also known as continous-space language models, make use of neural networks. These are current state-of-the-art approach in language modeling. One reason of Neural Nets' use is that they can learn from unstructured data. The studies show that it is possible to learn from unlabeled data \cite{unsupervised}. One of the common applications of such new machine learning techniques is search engines, which is mainly information retrieval that consists of unlabeled data. That means neural nets are possible to learn from that unstructured data and perform well on that.
+Further, we will proceed by reviewing today's state-of-the-art - neural language models. And by the end, we will summarize the topic and give future suggestions on language models.
+
+Neural language models, also known as continous-space language models, make use of neural networks. These are current state-of-the-art approach in language modeling. One reason of neural nets' use is that they can learn from unstructured data. The study \cite{unsupervised} show that it is possible to learn from unlabeled data and perform well on that. One of the common applications of such new machine learning techniques is search engines, which is mainly information retrieval that consists of unlabeled data.
+
+In second section we review word-level language modeling techniques, starting from \cite{Mikolov2010NeuralLM} proceeding by \cite{Zaremba2014LSTM}, \cite{Ghahramani2016Dropout}, \cite{Inan2016TiedLSTM}, and \cite{Salakhutdinov2017Softmax}. Next section presents different approach on neural language modeling, division of words into subwords. Fourth section includes reinforcement learning techniques on language modeling tasks. Lastly, neural Turing machines approach is reviewed.
 
 \section{Word-Level Language Modeling}
 
-Recurrent Neural Networks (RNN) are used in sequential data analysis such as video processing, text processing, predicting stock prices. RNN architecture is an improvement of feed-forward networks that takes into account previous output results by storing them in memory. An invention of backpropogation caused an exciting use of RNNs \cite{deeplearning}. But the problem in simple RNN was that the backpropogated gradients vanshish or explode \cite{deeplearning}.
+\subsection{Recurrent Neural Network}
 
-The improvement in RNN architecture further was introduced with a Long-Short Term Memory (LSTM). The LSTM solved the vasnishing gradient problem by having special cells with activation gates. Moreover, Gated Recurrent Unit (GRU) improved the architecture of the LSTM by combining two gates. The study shows that RNNs perform better than complex statistical approaches, N-grams, on a real-world data \cite{rnn}.
+Recurrent Neural Networks (RNN) are used in sequential data analysis such as video processing, text processing, predicting stock prices. RNN architecture is an improvement of feed-forward networks that takes into account previous output results by storing them in memory. An invention of backpropogation caused an exciting use of RNNs \cite{deeplearning}. The problem of simple RNN is that the backpropogated gradients vanshish or explode \cite{rnn}.
+
+The improvement in RNN architecture further was introduced with invention of Long-Short Term Memory (LSTM). The LSTM solved the vasnishing gradient problem by having special cells with activation gates. Moreover, Gated Recurrent Unit (GRU) improved the architecture of the LSTM by combining two gates. The study shows that RNNs perform better than complex statistical approaches, N-grams, on a real-world data \cite{rnn}.
 
 \section{Subword-level Language Modeling}
 
-In progress...
+This section will show how subword language modeling exceeds the performance of word-level and characted-level language modeling by presenting previous approaches from \cite{Mikolov2011SubwordLM}, etc...
 
 \section{Reinforcement Learning}
 
@@ -31,13 +37,13 @@ This section will show some Reinforcement Learning (RL) approaches to language m
 
 \section{Neural Turing Machines}
 
-This section will discuss Neural Turing Machines (NTM) approach to different natural language processing tasks with controllers like feed-forward network, GRU, LSTM, and further will show applications in learning language models. Related papers are \cite{snips16}
+This section will discuss Neural Turing Machines (NTM) approach to different natural language processing tasks with controllers like feed-forward network, GRU, LSTM, and further will show applications in learning language models. Related papers are \cite{snips16}, etc...
 
 \section{Conclusion}
 
 Over the past few years, it was clearly seen that continous-space language models outperformed statistical modeling techniques significantly. The ease of feature learning without need in extraction of those features simplified lives of scientists. The neural approach offers such opportunity to its users.
 
-Recurrent Networks are expected to improve natural language understanding in real-world applications.
+Recurrent networks are expected to improve natural language understanding in real-world applications.
 
 To be continued...
 

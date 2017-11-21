@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.13)  22 NOV 2017 00:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.13)  22 NOV 2017 02:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -135,39 +135,50 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 
 -- Lines per column: 58 (exact).
-(./Second Draft on Final Paper.bbl)
-! Undefined control sequence.
-l.47 \printbibliography
-                       
-? y
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
+(./Second Draft on Final Paper.bbl
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+! Misplaced alignment tab character &.
+<argument> ...rkshop on Neural Abstract Machines &
+                                                   Program Induction (NAMPI)
+l.69   Induction (NAMPI)}
+                         , Barcelona, Spain, 2016.
 ? r
 OK, entering \nonstopmode...
 [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-(./Second Draft on Final Paper.aux) ) 
+])
+! Undefined control sequence.
+l.53 \printbibliography
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[2
+
+] (./Second Draft on Final Paper.aux) ) 
 Here is how much of TeX's memory you used:
- 1139 strings out of 492995
- 20698 string characters out of 6132703
- 79801 words of memory out of 5000000
- 4758 multiletter control sequences out of 15000+600000
+ 1148 strings out of 492995
+ 20850 string characters out of 6132703
+ 82801 words of memory out of 5000000
+ 4767 multiletter control sequences out of 15000+600000
  33018 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 26i,5n,17p,641b,157s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/
-enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times
-/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.p
-fb>
-Output written on "Second Draft on Final Paper.pdf" (1 page, 31732 bytes).
+ 26i,5n,17p,565b,257s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/font
+s/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/urw/tim
+es/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a
+.pfb>
+Output written on "Second Draft on Final Paper.pdf" (2 pages, 36778 bytes).
 PDF statistics:
- 17 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 20 PDF objects out of 1000 (max. 8388607)
+ 13 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
