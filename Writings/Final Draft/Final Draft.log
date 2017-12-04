@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.13)  3 DEC 2017 04:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.13)  4 DEC 2017 10:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -208,35 +208,67 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen135
 \Gin@req@width=\dimen136
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen137
+\lightrulewidth=\dimen138
+\cmidrulewidth=\dimen139
+\belowrulesep=\dimen140
+\belowbottomsep=\dimen141
+\aboverulesep=\dimen142
+\abovetopsep=\dimen143
+\cmidrulesep=\dimen144
+\cmidrulekern=\dimen145
+\defaultaddspace=\dimen146
+\@cmidla=\count107
+\@cmidlb=\count108
+\@aboverulesep=\dimen147
+\@belowrulesep=\dimen148
+\@thisruleclass=\count109
+\@lastruleclass=\count110
+\@thisrulewidth=\dimen149
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count111
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip47
+\@affilsep=\skip48
+\c@Maxaffil=\count112
+\c@authors=\count113
+\c@affil=\count114
+)
 (./Final Draft.aux)
 \openout1 = `"Final Draft.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 -- Lines per column: 58 (exact).
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen137
+\scratchcounter=\count115
+\scratchdimen=\dimen150
 \scratchbox=\box30
-\nofMPsegments=\count108
-\nofMParguments=\count109
+\nofMPsegments=\count116
+\nofMParguments=\count117
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen138
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen151
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
@@ -287,56 +319,106 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<images/rnn.png, id=1, 234.8775pt x 292.09125pt>
+<images/sequence.png, id=1, 963.6pt x 432.86719pt>
+File: images/sequence.png Graphic file (type png)
+ <use images/sequence.png>
+Package pdftex.def Info: images/sequence.png used on input line 27.
+(pdftex.def)             Requested size: 232.19843pt x 104.30635pt.
+
+[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./images/sequence.png>] <images/rnn.png, id=19, 234.8775pt x 292.09125pt>
 File: images/rnn.png Graphic file (type png)
- <use images/rnn.png>
-Package pdftex.def Info: images/rnn.png used on input line 64.
+
+<use images/rnn.png>
+Package pdftex.def Info: images/rnn.png used on input line 78.
 (pdftex.def)             Requested size: 154.80157pt x 192.50893pt.
- [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-
-]
-(./Final Draft.bbl
-! Misplaced alignment tab character &.
-<argument> ...rkshop on Neural Abstract Machines &
-                                                   Program Induction (NAMPI)
-l.65   Induction (NAMPI)}
-                         , Barcelona, Spain, 2016.
+! Illegal parameter number in definition of \reserved@a.
+<to be read again> 
+                   P
+l.96 \textbf{Model} & \textbf{#Param}
+                                      & \textbf{Validation} & \textbf{Test} \\
 ? r
 OK, entering \nonstopmode...
-)
+! Illegal parameter number in definition of \reserved@b.
+<to be read again> 
+                   }
+l.96 \textbf{Model} & \textbf{#Param}
+                                      & \textbf{Validation} & \textbf{Test} \\
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<recently read> ##
+                  
+l.96 \textbf{Model} & \textbf{#Param}
+                                      & \textbf{Validation} & \textbf{Test} \\
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+<images/subword.png, id=21, 561.09625pt x 42.1575pt>
+File: images/subword.png Graphic file (type png)
+ <use images/subword.png>
+Package pdftex.def Info: images/subword.png used on input line 146.
+(pdftex.def)             Requested size: 232.19843pt x 17.4455pt.
+
+[2 <./images/rnn.png> <./images/subword.png>]
+<images/reinforcement.png, id=27, 553.06625pt x 249.93375pt>
+File: images/reinforcement.png Graphic file (type png)
+
+<use images/reinforcement.png>
+Package pdftex.def Info: images/reinforcement.png used on input line 166.
+(pdftex.def)             Requested size: 258.0pt x 116.59172pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 166--167
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./images/reinforcement.png>] (./Final Draft.bbl)
 ! Undefined control sequence.
-l.94 \printbibliography
-                       
+l.188 \printbibliography
+                        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[2 <./images/rnn.png>] (./Final Draft.aux) ) 
+[4
+
+] (./Final Draft.aux) ) 
 Here is how much of TeX's memory you used:
- 3024 strings out of 492995
- 46789 string characters out of 6132703
- 117405 words of memory out of 5000000
- 6559 multiletter control sequences out of 15000+600000
- 33472 words of font info for 64 fonts, out of 8000000 for 9000
+ 3385 strings out of 492995
+ 51270 string characters out of 6132703
+ 226077 words of memory out of 5000000
+ 6893 multiletter control sequences out of 15000+600000
+ 42364 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,5n,25p,1030b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist
-/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utm
-r8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Final Draft.pdf" (2 pages, 118153 bytes).
+ 39i,8n,25p,1288b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base
+/8r.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex
+10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Final Draft.pdf" (4 pages, 238989 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

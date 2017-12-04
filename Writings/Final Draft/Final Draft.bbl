@@ -44,12 +44,16 @@ W.~Zaremba, I.~Sutskever, , and O.~Vinyals, ``Recurrent neural network
 
 \bibitem{Salakhutdinov2017Softmax}
 Z.~Yang, Z.~Dai, R.~Salakhutdinov, and W.~W. Cohen, ``Breaking the softmax
-  bottleneck: A high-rank rnn language model,'' 2017, under review as a
+  bottleneck: A high-rank {RNN} language model,'' 2017, under review as a
   conference paper at ICLR 2018.
 
 \bibitem{Mikolov2011SubwordLM}
 T.~Mikolov, I.~Sutskever, A.~Deoras, H.-S. Le, S.~Kombrink, and
   J.~Cernock{\'y}, ``Subword language modeling with neural networks,'' 2011.
+
+\bibitem{Quoc2017Reinforcement}
+B.~Zoph and Q.~V. Le, ``Neural architecture search with reinforcement
+  learning,'' 2017, arXiv preprint arXiv:1611.01578.
 
 \bibitem{deeplearning}
 Y.~LeCun, Y.~Bengio, and G.~Hinton, ``Deep learning,'' \emph{Macmillan
@@ -58,10 +62,5 @@ Y.~LeCun, Y.~Bengio, and G.~Hinton, ``Deep learning,'' \emph{Macmillan
 \bibitem{rnn}
 A.~Karpathy, J.~Johnson, and L.~Fei-Fei, ``Visualizing and understanding
   reccurent networks,'' 2015, under review as a conference paper at ICLR 2016.
-
-\bibitem{snips16}
-T.~Deleu and J.~Dureau, ``Learning operations on a stack with neural turing
-  machines,'' in \emph{1st Workshop on Neural Abstract Machines & Program
-  Induction (NAMPI)}, Barcelona, Spain, 2016.
 
 \end{thebibliography}
