@@ -15,7 +15,7 @@
 \maketitle
 
 \begin{abstract}
-This is a simple paragraph at the beginning of the document. A brief introduction about the main subject.
+Language modeling (LM) appears to be a main task of natural language processing (NLP). Language modeling is also known as statistical language modeling due to large number of statistical approaches. However, in the last decade neural language models became more popular due to higher performance results. The study will therefore, review some of the previous and current state-of-the-art neural language models, and present different studies involved word-level, subword-level recurrent neural network approaches, even those trained with reinforcement learning method. The study then ends by summing up those discussions and giving some future work suggestions.
 \end{abstract}
 
 \section{Introduction}
@@ -31,10 +31,7 @@ Language Modeling (LM) is a central task in Natural Language Processing (NLP) an
 
 However, as soon as neural networks became popular, \textit{neural language modeling} approaches were invented. Artificial neural networks perform well on supervised learning tasks (when the data is \textit{labeled}) and unsupervised learning tasks (when the data is \textit{unlabeled}). Quoc V. Le et al. in their study \cite{unsupervised} explored and demonstrated how well neural networks operate on unsupervised learning task, where a model has to detect whether a given image contains a face or not. And as the study \cite{unsupervised} notes, the work has been motivated by neuroscience hypothesis. So does the whole science about neural networks. Moreover, information retrieval tasks that are mainly composed of unlabeled data, like in search engines, can be approached by such unsupervised learning techniques. Neural language models, also known as continous-space language models, make use of these neural networks. Those are current state-of-the-art approaches in language modeling.
 
-% Linkage
-% e.g. labeled data, neural is better
-
-In the second section of this paper we start by reviewing Recurrent Neural Networks (RNN). Further, in the same section we review the first/previous and current state-of-the-art RNN based word-level language modeling approaches, starting from \cite{Mikolov2010NeuralLM} and \cite{Mikolov2011ExtensionsOR}, proceeding by \cite{Zaremba2014LSTM}, and \cite{Salakhutdinov2017Softmax}. Next section presents different approaches on neural language modeling that include division of words into subwords presented in \cite{Mikolov2011SubwordLM}, reinforcement learning based techniques from \cite{Quoc2017Reinforcement}.
+In the second section of this paper we start by defining what the Recurrent Neural Network (RNN) is, and how it can be applied to language modeling. Studies \cite{Mikolov2010NeuralLM}, \cite{Mikolov2011ExtensionsOR}, \cite{Zaremba2014LSTM}, \cite{Salakhutdinov2017Softmax} show that RNNs seem to be best techniques for language modeling in terms of performance. Thus, RNN appears to be a main approach for neural language modeling nowadays but not the only one. Hence, we proceed by reviewing other interesting approaches to neural language modeling such like subword-level language models presented in \cite{Mikolov2011SubwordLM} and reinforcement learning based language models like in \cite{Quoc2017Reinforcement}. We continue by concluding the review of artificial neural science applied in language modeling. At the end, we present our future suggestions on the neural language modeling approaches. 
 
 \section{Recurrent Neural Networks based Language Models}
 
@@ -85,6 +82,8 @@ According to \cite{Mikolov2010NeuralLM} results RNNs illustrated excellent perfo
 Furthermore, \cite{Mikolov2011ExtensionsOR} work presents that RNN based LM can achieve higher efficiency on language modeling tasks by being trained with backpropogation through time (BPTT) optimization technique, which serves as an extension to standard backpropogation algorithm. This backpropogation algorithm is main optimization technique of neural network models. The backpropogation is basically updating neural network weights (coefficients) iteratively. The key concept of BPTT is that the error propogates back for several time steps through its recurrent connections, as it was stated in \cite{Mikolov2011ExtensionsOR}.
 
 Later, Zaremba et al. were first to implement LSTM model with dropout regularization for language modeling task, and demonstrated another improvements in perplexity \cite{Zaremba2014LSTM}. Moreover, subsequent studies listed in \cite{Salakhutdinov2017Softmax} show other improvements in perplexity with LSTMs and other techniques on word-level language modeling. Short overview on the work done there illustrated in table \ref{tab:softmax}\footnote{It is out of scope of this paper to provide detailed description of those approaches.}.
+
+In general, recurrent networks are expected to improve natural language understanding in real-world applications. These also involves language modeling tasks.
 
 % Table 1
 \begin{table*}[!t]
@@ -174,14 +173,15 @@ The algorithm in \cite{Quoc2017Reinforcement} constructs a tree of architectures
 
 Hence, reinforcement learning techniques also can support language models with a guidance on how to achieve better accuracy results.
 
-\section{Conclusion}
+\section{Conclusion and future work}
 
-Over the past few years, it was clearly seen that continous-space language models outperformed statistical modeling techniques significantly. The ease of feature learning without need in extraction of those features simplified lives of scientists. The neural approach offers such opportunity to its users.
+Language modeling appeared to be a main task in a variety of NLP tasks. Therefore, in the previous century statistical language models were invented to make prediction of next word in the document easier using statistics. However, in the last decades neural language models or also called continous-space language models have started to be used.
 
-Recurrent networks are expected to improve natural language understanding in real-world applications.
+Over the past few years, it was clearly seen that continous-space language models outperformed statistical modeling techniques significantly. The ease of feature learning without need in extraction of those features simplified lives of the scientists. The neural approach offers such opportunity to its users.
 
-To be continued...
+There was number of studies showing that neural language models outperforms statistical models in terms perplexity and in addition do not require large datasets as backoff models. This leads us to the fact that neural language models are current state-of-the-art techniques in language modeling. Those neural language approaches include feed-forward neural networks, simple recurrent neural networks, improved recurrent neural networks (LSTM) on a word-level and subword-level trained in the standard and non-standard (reinforcement learning) ways.
 
+As we have already observed, there are lots of different neural solutions to language modeling tasks. And as we have seen in \cite{Quoc2017Reinforcement}, combining several techniques results in newer improvements of existing models. So, the study suggests to combine different approaches in the way that will obtain better results in perplexity. For instance, one may combine the subword-level RNN (LSTM) based language model with deep reinforcement learning algorithm.
 
 \bibliographystyle{IEEEtran}
 \bibliography{reference}
