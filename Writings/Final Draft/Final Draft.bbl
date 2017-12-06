@@ -44,8 +44,7 @@ W.~Zaremba, I.~Sutskever, , and O.~Vinyals, ``Recurrent neural network
 
 \bibitem{Salakhutdinov2017Softmax}
 Z.~Yang, Z.~Dai, R.~Salakhutdinov, and W.~W. Cohen, ``Breaking the softmax
-  bottleneck: A high-rank {RNN} language model,'' 2017, under review as a
-  conference paper at ICLR 2018.
+  bottleneck: A high-rank {RNN} language model,'' 2017.
 
 \bibitem{Mikolov2011SubwordLM}
 T.~Mikolov, I.~Sutskever, A.~Deoras, H.-S. Le, S.~Kombrink, and

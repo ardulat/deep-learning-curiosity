@@ -11,48 +11,49 @@ Database file #1: reference.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty booktitle in Salakhutdinov2017Softmax
 Warning--empty booktitle in Mikolov2011SubwordLM
 
 Done.
 You've used 9 entries,
             4087 wiz_defined-function locations,
-            872 strings with 9106 characters,
-and the built_in function-call counts, 5326 in all, are:
-= -- 392
+            871 strings with 9059 characters,
+and the built_in function-call counts, 5393 in all, are:
+= -- 385
 > -- 185
 < -- 20
 + -- 94
 - -- 40
-* -- 266
-:= -- 844
+* -- 267
+:= -- 836
 add.period$ -- 18
 call.type$ -- 9
-change.case$ -- 13
+change.case$ -- 12
 chr.to.int$ -- 48
-cite$ -- 10
-duplicate$ -- 382
-empty$ -- 431
+cite$ -- 11
+duplicate$ -- 394
+empty$ -- 459
 format.name$ -- 49
-if$ -- 1211
+if$ -- 1233
 int.to.chr$ -- 0
 int.to.str$ -- 9
-missing$ -- 85
+missing$ -- 86
 newline$ -- 50
 num.names$ -- 9
-pop$ -- 213
+pop$ -- 227
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 394
+skip$ -- 402
 stack$ -- 0
-substring$ -- 129
-swap$ -- 281
+substring$ -- 127
+swap$ -- 279
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 5
 type$ -- 9
-warning$ -- 1
+warning$ -- 2
 while$ -- 15
 width$ -- 10
-write$ -- 97
-(There was 1 warning)
+write$ -- 96
+(There were 2 warnings)
