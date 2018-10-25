@@ -1,3 +1,15 @@
+'''
+    SimpleNet in Pytorch.
+
+    Reference:
+    [1] Seyyed Hossein Hasanpour, Mohammad Rouhani,
+    Mohsen Fayyaz, Mohammad Sabokrou.
+    Lets keep it simple, Using simple architectures
+    to outperform deeper and more complex architectures
+    arXiv:1608.06037
+'''
+
+
 
 # coding: utf-8
 

@@ -1,3 +1,13 @@
+'''
+    VGGNet16 in Pytorch.
+
+    Reference:
+    [1] Karen Simonyan, Andrew Zisserman.
+    Very Deep Convolutional Networks for 
+    Large-Scale Image Recognition
+    arXiv:1409.1556
+'''
+
 
 # coding: utf-8
 
